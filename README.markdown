@@ -1,8 +1,8 @@
-# fazscore - Floating Z-Score implementation
+# fazscore - Floating Average Z-Score implementation
 
 ## Description
 
-An implementation of a Flaoting Average Z-Score algorithmic method for use in identifying trends in historical data.
+An implementation of a Floating Average Z-Score algorithmic method for use in identifying trends in historical data.
 
 For further information see - http://stackoverflow.com/questions/787496/what-is-the-best-way-to-compute-trending-topics-or-tags/826509#826509
 
