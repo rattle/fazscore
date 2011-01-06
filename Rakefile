@@ -13,12 +13,12 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "fazscore"
-  gem.homepage = "http://github.com/rjlee/fazscore"
-  gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "robl@monkeyhelper.com"
-  gem.authors = ["robl"]
+  gem.homepage = "http://github.com/rattle/fazscore"
+  gem.license = "GPLv3"
+  gem.summary = %Q{Floating Average Z-Score implementation}
+  gem.description = %Q{TAn implementation of a Floating Average Z-Score algorithmic method for use in identifying trends with historical data.}
+  gem.email = "robl[at]rjlee.net"
+  gem.authors = ["Rob Lee"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
