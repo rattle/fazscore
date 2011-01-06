@@ -1,16 +1,16 @@
-= fazscore - Floating Z-Score implementation
+# fazscore - Floating Z-Score implementation
 
-== Description
+## Description
 
 An implementation of a Flaoting Average Z-Score algorithmic method for use in identifying trends in historical data.
 
 For further information see - http://stackoverflow.com/questions/787496/what-is-the-best-way-to-compute-trending-topics-or-tags/826509#826509
 
-== Installation
+## Installation
 
     gem install fazscore
 
-== Usage
+## Usage
 
 Typically you'll have a set of historical data points that you want to compare to a current data point and see how much the latest data point has deviated from the historical average, to identify if it's trending.
 
@@ -35,7 +35,7 @@ Typically you'll have a set of historical data points that you want to compare t
     # Display 'most' trending term with trending score
     puts scores.sort {|a,b| a[1]<=>b[1]}.last
 
-== Contributing to fazscore
+## Contributing to fazscore
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
@@ -45,7 +45,7 @@ Typically you'll have a set of historical data points that you want to compare t
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
-== Copyright
+## Copyright
 
 Copyright (c) 2011 Rob Lee. See LICENSE.txt for further details.
 
