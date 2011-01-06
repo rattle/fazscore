@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "README.markdown",
     "Rakefile",
     "VERSION",
+    "fazscore.gemspec",
     "lib/fazscore.rb",
     "test/helper.rb",
     "test/test_fazscore.rb"
