@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.version = "0.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["robl"]
+  s.authors = ["Rob Lee"]
   s.date = %q{2011-01-06}
-  s.description = %q{TODO: longer description of your gem}
-  s.email = %q{robl@monkeyhelper.com}
+  s.description = %q{TAn implementation of a Floating Average Z-Score algorithmic method for use in identifying trends with historical data.}
+  s.email = %q{robl[at]rjlee.net}
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.markdown"
@@ -28,11 +28,11 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_fazscore.rb"
   ]
-  s.homepage = %q{http://github.com/rjlee/fazscore}
-  s.licenses = ["MIT"]
+  s.homepage = %q{http://github.com/rattle/fazscore}
+  s.licenses = ["GPLv3"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Floating Average Z-Score implementation}
   s.test_files = [
     "test/helper.rb",
     "test/test_fazscore.rb"
